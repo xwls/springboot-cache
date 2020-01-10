@@ -1,0 +1,34 @@
+GET http://localhost:8080/books
+
+
+###
+
+GET http://localhost:8080/book/101
+
+
+###
+
+POST http://localhost:8080/book
+Content-Type: application/x-www-form-urlencoded
+
+name=mybatis-plus&author=张三&price=19.9
+
+<> 2020-01-08T015942.200.json
+
+###
+
+PUT http://localhost:8080/book
+Content-Type: application/x-www-form-urlencoded
+
+bookId=116&name=mybatis&author=张小三&price=9.9
+
+<> 2020-01-08T020048.200.json
+
+###
+
+DELETE http://localhost:8080/book/116
+
+<> 2020-01-08T020134.200.json
+<> 2020-01-08T020120.200.json
+
+###
